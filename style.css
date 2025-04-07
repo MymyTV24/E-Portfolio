@@ -291,7 +291,7 @@ HIGHLIGHTS
     background: url(assets/wave.svg);
     content: "";
     position: absolute;
-    top: 1px;
+    
     left: 0;
     transform:translateY(-100%);
     width: 101vw;
@@ -308,7 +308,7 @@ HIGHLIGHTS
 }
 
 #highlights:after {
-    transform:translateY(205%) rotate(180deg);
+    transform:translateY(100%) rotate(180deg);
     bottom: 1px;
 }
 
